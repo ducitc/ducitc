@@ -27,7 +27,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="DUCITC.team"
+        brand={<img width="100px" src="/apple-icon.png"/>}
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -37,12 +37,12 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bg2.jpg")}>
+      <Parallax image={require("assets/img/bg7.jpg")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>DUCITC</h1>
+                <img className={classes.img} width="300px" alt="DUCITC" src="/ducitc.png" />
                 <h3 className={classes.subtitle}>
                   Dania University College IT Club.
                 </h3>
