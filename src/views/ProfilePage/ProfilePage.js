@@ -42,7 +42,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand={<img width="100px" src="/apple-icon.png" />}
+        brand={<img width="100px" src={require('../../assets/img/apple-icon.png')} />}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
