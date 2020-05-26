@@ -30,7 +30,7 @@ export default function HeaderLinks(props) {
         <Button
           href="/"
           color="transparent"
-          target="_blank"
+          // target="_blank"
           className={classes.navLink}
         >
            Home
@@ -41,7 +41,7 @@ export default function HeaderLinks(props) {
         <Button
           href="/quiz"
           color="transparent"
-          target="_blank"
+          // target="_blank"
           className={classes.navLink}
         >
            Quiz
@@ -52,7 +52,7 @@ export default function HeaderLinks(props) {
         <Button
           href="/about"
           color="transparent"
-          target="_blank"
+          // target="_blank"
           className={classes.navLink}
         >
            About Us
@@ -81,23 +81,6 @@ export default function HeaderLinks(props) {
             className={classes.navLink}
           >
             <i className={classes.socialIcons + " fab fa-facebook"} />
-          </Button>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
           </Button>
         </Tooltip>
       </ListItem>

@@ -1,5 +1,6 @@
 {
-  "name": "ducitc.team",
+  "name": "ducitc",
+  "homepage": "https://ducitc.github.io/ducitc",
   "version": "1.8.0",
   "description": "Material Kit React. Coded by Dania University College IT club",
   "private": true,
@@ -22,6 +23,7 @@
     "react-swipeable-views": "0.13.3"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "@babel/cli": "7.5.5",
     "@babel/plugin-proposal-class-properties": "7.5.5",
     "@babel/preset-env": "7.5.5",
@@ -37,6 +39,8 @@
     "typescript": "3.5.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",
     "test": "react-scripts test --env=jsdom",
