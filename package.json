@@ -1,6 +1,6 @@
 {
-  "name": "ducitc.team",
-  "version": "1.8.0",
+  "name": "ducitc",
+  "version": "1.0.0",
   "description": "Material Kit React. Coded by Dania University College IT club",
   "private": true,
   "main": "dist/index.js",

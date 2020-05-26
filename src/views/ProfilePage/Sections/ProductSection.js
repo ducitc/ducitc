@@ -34,8 +34,8 @@ export default function ProductSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Mission"
+              description="Our mission is to make the students use IT in the best possible manner and also be updated with the latest trends in IT by conducting regular events and programs."
               icon={Chat}
               iconColor="info"
               vertical
@@ -43,8 +43,8 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Vision"
+              description="To promote and encourage the student community in technical skill development and to make use of it in their development by safe use of technology."
               icon={VerifiedUser}
               iconColor="success"
               vertical
@@ -52,8 +52,9 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={4}>
             <InfoArea
-              title="Fingerprint"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Objectives"
+              description="Acquisition of knowledge through various workshops, seminars, presentations, competitions and gaming sessions.
+              Safe surfing on the internet."
               icon={Fingerprint}
               iconColor="danger"
               vertical
