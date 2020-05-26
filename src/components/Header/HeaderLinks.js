@@ -29,8 +29,9 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      {routes.map(route => (
+      {routes.map((route, index) => (
         <Button
+        key={index}
           href={route}
           color="transparent"
           target="_blank"
