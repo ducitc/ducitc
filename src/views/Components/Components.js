@@ -18,6 +18,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 
 import styles from "assets/jss/material-kit-react/views/components.js";
+import { Badge } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 

@@ -73,7 +73,7 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} DUCITC , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="/"
+            href="https://www.facebook.com/itcduc"
             className={aClasses}
             target="_blank"
           >
