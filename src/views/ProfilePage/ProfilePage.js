@@ -42,7 +42,7 @@ export default function ProfilePage(props) {
     <div>
       <Header
         color="transparent"
-        brand={<img width="100px" src={require('../../assets/img/apple-icon.png')} />}
+        brand={<img width="100px" src="/assets/img/apple-icon.png" />}
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
@@ -51,7 +51,7 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image={require("assets/img/profile-bg.jpg")} />
+      <Parallax small filter image="assets/img/profile-bg.jpg" />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>

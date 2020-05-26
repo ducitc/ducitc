@@ -3,8 +3,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
+import GolfCourseIcon from '@material-ui/icons/GolfCourse';
+import RemoveRedEyeIcon from '@material-ui/icons/RemoveRedEye';
+import TrackChangesIcon from '@material-ui/icons/TrackChanges';
 import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
@@ -36,7 +37,7 @@ export default function ProductSection() {
             <InfoArea
               title="Mission"
               description="Our mission is to make the students use IT in the best possible manner and also be updated with the latest trends in IT by conducting regular events and programs."
-              icon={Chat}
+              icon={GolfCourseIcon}
               iconColor="info"
               vertical
             />
@@ -45,7 +46,7 @@ export default function ProductSection() {
             <InfoArea
               title="Vision"
               description="To promote and encourage the student community in technical skill development and to make use of it in their development by safe use of technology."
-              icon={VerifiedUser}
+              icon={RemoveRedEyeIcon}
               iconColor="success"
               vertical
             />
@@ -55,7 +56,7 @@ export default function ProductSection() {
               title="Objectives"
               description="Acquisition of knowledge through various workshops, seminars, presentations, competitions and gaming sessions.
               Safe surfing on the internet."
-              icon={Fingerprint}
+              icon={TrackChangesIcon}
               iconColor="danger"
               vertical
             />
