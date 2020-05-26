@@ -1,21 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.2a7458d6.chunk.css",
-    "main.js": "/static/js/main.17661f90.chunk.js",
-    "main.js.map": "/static/js/main.17661f90.chunk.js.map",
+    "main.js": "/static/js/main.d1494ddd.chunk.js",
+    "main.js.map": "/static/js/main.d1494ddd.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.725554ca.js",
     "runtime~main.js.map": "/static/js/runtime~main.725554ca.js.map",
-    "static/js/2.52df235b.chunk.js": "/static/js/2.52df235b.chunk.js",
-    "static/js/2.52df235b.chunk.js.map": "/static/js/2.52df235b.chunk.js.map",
+    "static/js/2.5e48be75.chunk.js": "/static/js/2.5e48be75.chunk.js",
+    "static/js/2.5e48be75.chunk.js.map": "/static/js/2.5e48be75.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1c18855747f181a6f44d6e24085711f1.js": "/precache-manifest.1c18855747f181a6f44d6e24085711f1.js",
+    "precache-manifest.0f2925d6ff0c2d545bf9bd10ee359589.js": "/precache-manifest.0f2925d6ff0c2d545bf9bd10ee359589.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.2a7458d6.chunk.css.map": "/static/css/main.2a7458d6.chunk.css.map",
     "static/media/apple-icon.png": "/static/media/apple-icon.d0dd59bb.png",
     "static/media/avatar.jpg": "/static/media/avatar.f1d71f77.jpg",
     "static/media/christian.jpg": "/static/media/christian.69fb5351.jpg",
-    "static/media/cov.png": "/static/media/cov.0d24a700.png",
-    "static/media/ducitc.png": "/static/media/ducitc.facb93f3.png",
     "static/media/kendall.jpg": "/static/media/kendall.e0508cc9.jpg",
     "static/media/profile-bg.jpg": "/static/media/profile-bg.baf6b40a.jpg"
   }
