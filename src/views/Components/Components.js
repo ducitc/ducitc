@@ -27,11 +27,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-<<<<<<< HEAD
         brand={<img width="100px" src={require('../../assets/img/apple-icon.png')} />}
-=======
-        rand={<img width="100px" src={require('../../assets/img/ducitc.png')}/>}
->>>>>>> 60906f16f80bfbf908f1e681b16c9baff165c375
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -46,17 +42,10 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-<<<<<<< HEAD
-                <img className={classes.img} width="300px" alt="DUCITC" src={require('../../assets/img/apple-icon.png')} />
-                <h3 className={classes.subtitle}>
-                  Dania University College IT Club.
-                </h3>
-=======
               <img  style={{background: 'white', borderRadius: 10} } width="300px" src={require('../../assets/img/ducitc.png')}/>
                 {/* <h3 className={classes.subtitle}>
                   Dania University College IT Club
                 </h3> */}
->>>>>>> 60906f16f80bfbf908f1e681b16c9baff165c375
               </div>
             </GridItem>
           </GridContainer>
