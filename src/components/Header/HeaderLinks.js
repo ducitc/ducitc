@@ -47,8 +47,8 @@ export default function HeaderLinks(props) {
            Quiz
         </Button>
       </ListItem>
-
       <ListItem className={classes.listItem}>
+        <Link to='/about' style={{color: 'white'}}>
         <Button
           href="/about"
           color="transparent"
@@ -57,6 +57,8 @@ export default function HeaderLinks(props) {
         >
            About Us
         </Button>
+        </Link>
+
       </ListItem>
       
       <ListItem className={classes.listItem}>
