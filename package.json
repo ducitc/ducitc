@@ -1,11 +1,6 @@
 {
   "name": "ducitc",
-<<<<<<< HEAD
   "version": "1.0.0",
-=======
-  "homepage": "https://ducitc.github.io/ducitc",
-  "version": "1.8.0",
->>>>>>> 60906f16f80bfbf908f1e681b16c9baff165c375
   "description": "Material Kit React. Coded by Dania University College IT club",
   "private": true,
   "main": "dist/index.js",
