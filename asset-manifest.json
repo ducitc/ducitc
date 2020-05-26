@@ -1,17 +1,21 @@
 {
   "files": {
     "main.css": "/ducitc/static/css/main.2a7458d6.chunk.css",
-    "main.js": "/ducitc/static/js/main.524a85e1.chunk.js",
-    "main.js.map": "/ducitc/static/js/main.524a85e1.chunk.js.map",
-    "runtime~main.js": "/ducitc/static/js/runtime~main.5c88a269.js",
-    "runtime~main.js.map": "/ducitc/static/js/runtime~main.5c88a269.js.map",
-    "static/js/2.ddeefddc.chunk.js": "/ducitc/static/js/2.ddeefddc.chunk.js",
-    "static/js/2.ddeefddc.chunk.js.map": "/ducitc/static/js/2.ddeefddc.chunk.js.map",
+    "main.js": "/ducitc/static/js/main.f4b86d71.chunk.js",
+    "main.js.map": "/ducitc/static/js/main.f4b86d71.chunk.js.map",
+    "runtime~main.js": "/ducitc/static/js/runtime~main.fc8fa1c8.js",
+    "runtime~main.js.map": "/ducitc/static/js/runtime~main.fc8fa1c8.js.map",
+    "static/js/2.23906d5f.chunk.js": "/ducitc/static/js/2.23906d5f.chunk.js",
+    "static/js/2.23906d5f.chunk.js.map": "/ducitc/static/js/2.23906d5f.chunk.js.map",
     "index.html": "/ducitc/index.html",
-    "precache-manifest.f295c11e8ffd1c5e1703f94b223399f3.js": "/ducitc/precache-manifest.f295c11e8ffd1c5e1703f94b223399f3.js",
+    "precache-manifest.f5efa821bd08e8d6e58622ef9c041c9d.js": "/ducitc/precache-manifest.f5efa821bd08e8d6e58622ef9c041c9d.js",
     "service-worker.js": "/ducitc/service-worker.js",
     "static/css/main.2a7458d6.chunk.css.map": "/ducitc/static/css/main.2a7458d6.chunk.css.map",
+    "static/media/avatar.jpg": "/ducitc/static/media/avatar.f1d71f77.jpg",
+    "static/media/christian.jpg": "/ducitc/static/media/christian.69fb5351.jpg",
     "static/media/cov.png": "/ducitc/static/media/cov.0d24a700.png",
-    "static/media/ducitc.png": "/ducitc/static/media/ducitc.facb93f3.png"
+    "static/media/ducitc.png": "/ducitc/static/media/ducitc.facb93f3.png",
+    "static/media/kendall.jpg": "/ducitc/static/media/kendall.e0508cc9.jpg",
+    "static/media/profile-bg.jpg": "/ducitc/static/media/profile-bg.baf6b40a.jpg"
   }
 }
