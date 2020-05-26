@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc7015d9c075ca5d633689e9e01d429c",
+    "revision": "bc10b722f6e4baaf31cdcf230e3249d7",
     "url": "/ducitc/index.html"
   },
   {
-    "revision": "0feef166e604ab86fff6",
+    "revision": "3aabdc5df1c706bfa58d",
     "url": "/ducitc/static/css/main.2a7458d6.chunk.css"
   },
   {
-    "revision": "b0cd610b51a4da3a20d2",
-    "url": "/ducitc/static/js/2.ac131bcb.chunk.js"
+    "revision": "8f89edef0a10dea248fb",
+    "url": "/ducitc/static/js/2.ddeefddc.chunk.js"
   },
   {
-    "revision": "0feef166e604ab86fff6",
-    "url": "/ducitc/static/js/main.50f62e59.chunk.js"
+    "revision": "3aabdc5df1c706bfa58d",
+    "url": "/ducitc/static/js/main.524a85e1.chunk.js"
   },
   {
     "revision": "c91e385cafbd9fd0e57e",
@@ -22,5 +22,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0d24a700ea3e679ffe942bef803535c8",
     "url": "/ducitc/static/media/cov.0d24a700.png"
+  },
+  {
+    "revision": "facb93f33ee310fa5da001e46315cec9",
+    "url": "/ducitc/static/media/ducitc.facb93f3.png"
   }
 ]);

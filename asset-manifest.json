@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/ducitc/static/css/main.2a7458d6.chunk.css",
-    "main.js": "/ducitc/static/js/main.50f62e59.chunk.js",
-    "main.js.map": "/ducitc/static/js/main.50f62e59.chunk.js.map",
+    "main.js": "/ducitc/static/js/main.524a85e1.chunk.js",
+    "main.js.map": "/ducitc/static/js/main.524a85e1.chunk.js.map",
     "runtime~main.js": "/ducitc/static/js/runtime~main.5c88a269.js",
     "runtime~main.js.map": "/ducitc/static/js/runtime~main.5c88a269.js.map",
-    "static/js/2.ac131bcb.chunk.js": "/ducitc/static/js/2.ac131bcb.chunk.js",
-    "static/js/2.ac131bcb.chunk.js.map": "/ducitc/static/js/2.ac131bcb.chunk.js.map",
+    "static/js/2.ddeefddc.chunk.js": "/ducitc/static/js/2.ddeefddc.chunk.js",
+    "static/js/2.ddeefddc.chunk.js.map": "/ducitc/static/js/2.ddeefddc.chunk.js.map",
     "index.html": "/ducitc/index.html",
-    "precache-manifest.d32c408c3bd44c2d2bcccb6bf78845d3.js": "/ducitc/precache-manifest.d32c408c3bd44c2d2bcccb6bf78845d3.js",
+    "precache-manifest.f295c11e8ffd1c5e1703f94b223399f3.js": "/ducitc/precache-manifest.f295c11e8ffd1c5e1703f94b223399f3.js",
     "service-worker.js": "/ducitc/service-worker.js",
     "static/css/main.2a7458d6.chunk.css.map": "/ducitc/static/css/main.2a7458d6.chunk.css.map",
-    "static/media/cov.png": "/ducitc/static/media/cov.0d24a700.png"
+    "static/media/cov.png": "/ducitc/static/media/cov.0d24a700.png",
+    "static/media/ducitc.png": "/ducitc/static/media/ducitc.facb93f3.png"
   }
 }
