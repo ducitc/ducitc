@@ -19,61 +19,54 @@ import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
-import { ListSubheader, ListItemText } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
-
-const routes = ["Home", "Quize", "Events"];
 
 export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      {routes.map((route, index) => (
-        <Button
-        key={index}
-          href={route}
-          color="transparent"
-          target="_blank"
-          className={classes.navLink}
-        >
-           {route}
-        </Button>
-      ))
-  }
-      {/* <ListItem className={classes.listItem}>
+      <ListItem className={classes.listItem}>
         <Button
           href="/"
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-           Quize
+           Home
         </Button>
-      </ListItem> */}
-      {/* <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="Components"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              All components
-            </Link>,
-            <a
-              href="#"
-              target="_blank"
-              className={classes.dropdownLink}
-            >
-              Documentation
-            </a>
-          ]}
-        />
-      </ListItem> */}
+      </ListItem>
+
+    <ListItem className={classes.listItem}>
+        <Button
+          href="/quiz"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+           Quiz
+        </Button>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+        <Button
+          href="/about"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+           About Us
+        </Button>
+      </ListItem>
+      
+      <ListItem className={classes.listItem}>
+        {/*<Tooltip title="Delete">
+          <IconButton aria-label="Delete">
+            <DeleteIcon />
+          </IconButton>
+        </Tooltip>*/}
+        
+      </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
@@ -83,7 +76,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/itcduc/"
+            href="https://www.facebook.com/itcduc"
             target="_blank"
             className={classes.navLink}
           >
@@ -91,7 +84,23 @@ export default function HeaderLinks(props) {
           </Button>
         </Tooltip>
       </ListItem>
-    
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="instagram-tooltip"
+          title="Follow us on instagram"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <Button
+            color="transparent"
+            href="https://www.instagram.com/"
+            target="_blank"
+            className={classes.navLink}
+          >
+            <i className={classes.socialIcons + " fab fa-instagram"} />
+          </Button>
+        </Tooltip>
+      </ListItem>
     </List>
   );
 }

@@ -18,7 +18,6 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 
 import styles from "assets/jss/material-kit-react/views/components.js";
-import { Badge } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 
@@ -28,7 +27,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand={<img width="100px" src={require('../../assets/img/ducitc.png')}/>}
+        brand={<img width="100px" src="/apple-icon.png"/>}
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -43,7 +42,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <img className={classes.img} width="300px" alt="DUCITC" src={require('../../assets/img/ducitc.png')} />
+                <img className={classes.img} width="300px" alt="DUCITC" src="/ducitc.png" />
                 <h3 className={classes.subtitle}>
                   Dania University College IT Club.
                 </h3>

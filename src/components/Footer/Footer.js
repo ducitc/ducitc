@@ -33,7 +33,7 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#"
+                href="/"
                 className={classes.block}
                 target="_blank"
               >
@@ -42,7 +42,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#"
+                href="/about"
                 className={classes.block}
                 target="_blank"
               >
@@ -51,11 +51,11 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="#"
+                href="/quiz"
                 className={classes.block}
                 target="_blank"
               >
-                Blog
+                Quiz
               </a>
             </ListItem>
             <ListItem className={classes.inlineBlock}>
@@ -64,7 +64,7 @@ export default function Footer(props) {
                 className={classes.block}
                 target="_blank"
               >
-                Licenses
+                Group
               </a>
             </ListItem>
           </List>
@@ -73,7 +73,7 @@ export default function Footer(props) {
           &copy; {1900 + new Date().getYear()} DUCITC , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.facebook.com/itcduc"
+            href="/"
             className={aClasses}
             target="_blank"
           >
