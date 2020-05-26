@@ -27,7 +27,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        rand={<img width="100px" src={require('../../assets/img/ducitc.png')}/>}
+        brand={<img width="100px" src={require('../../assets/img/apple-icon.png')} />}
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
