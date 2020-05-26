@@ -27,7 +27,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand={<img width="100px" src={require('../../assets/img/apple-icon.png')} />}
+        brand={<img width="100px" src="/assets/img/apple-icon.png" />}
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -37,12 +37,12 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/cov.png")}>
+      <Parallax image="assets/img/cov.png">
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-              <img  style={{background: 'white', borderRadius: 10} } width="300px" src={require('../../assets/img/ducitc.png')}/>
+              <img  style={{background: 'white', borderRadius: 10} } width="300px" src="/assets/img/ducitc.png"/>
                 {/* <h3 className={classes.subtitle}>
                   Dania University College IT Club
                 </h3> */}
