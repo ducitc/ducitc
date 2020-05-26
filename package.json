@@ -1,7 +1,8 @@
 {
   "name": "ducitc",
   "version": "1.0.0",
-  "description": "Material Kit React. Coded by Dania University College IT club",
+  "homepage": "http://test.ducitc.team",
+  "description": "Coded by Dania University College IT club",
   "private": true,
   "main": "dist/index.js",
   "dependencies": {
