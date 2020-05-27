@@ -29,12 +29,12 @@ const executives = [
     }
   },
   {
-    name: 'Minhas Siam',
+    name: 'Minhaj Siam',
     avatar: '/assets/img/faces/Siam.png',
     role: 'President',
     bio: '',
     socials: {
-      fb: '',
+      fb: 'minhaj.siam.7',
       ig: '',
       tw: '',
     }
@@ -45,7 +45,7 @@ const executives = [
     role: 'Vice President',
     bio: '',
     socials: {
-      fb: '',
+      fb: 'db.rashed',
       ig: '',
       tw: '',
     }
