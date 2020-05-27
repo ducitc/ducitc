@@ -23,9 +23,9 @@ const executives = [
     role: 'Moderator',
     bio: '',
     socials: {
-      fb: 'nurulhudaapon',
-      ig: 'nurulhudaapon',
-      tw: 'nurulhudaapon',
+      fb: '',
+      ig: '',
+      tw: '',
     }
   },
   {
@@ -34,9 +34,9 @@ const executives = [
     role: 'President',
     bio: '',
     socials: {
-      fb: 'nurulhudaapon',
-      ig: 'nurulhudaapon',
-      tw: 'nurulhudaapon',
+      fb: '',
+      ig: '',
+      tw: '',
     }
   },
   {
@@ -45,20 +45,20 @@ const executives = [
     role: 'Vice President',
     bio: '',
     socials: {
-      fb: 'nurulhudaapon',
-      ig: 'nurulhudaapon',
-      tw: 'nurulhudaapon',
+      fb: '',
+      ig: '',
+      tw: '',
     }
   },
   {
     name: 'Mehedi Hasan',
-    avatar: '/assets/img/faces/Mehedi.jpg',
+    avatar: 'https://imagetot.com/images/2020/05/27/bfaa5c01f58acbbdafe329029c5fa794.png',
     role: 'General Secretary',
     bio: '',
     socials: {
-      fb: 'nurulhudaapon',
-      ig: 'nurulhudaapon',
-      tw: 'nurulhudaapon',
+      fb: 'mhimranhossain97',
+      ig: 'mhimranhossain97',
+      tw: 'ElPro_MH',
     }
   },
   {
@@ -67,9 +67,9 @@ const executives = [
     role: 'Event Mangement Executive',
     bio: '',
     socials: {
-      fb: 'nurulhudaapon',
-      ig: 'nurulhudaapon',
-      tw: 'nurulhudaapon',
+      fb: '',
+      ig: '',
+      tw: '',
     }
   },
   {
@@ -81,6 +81,17 @@ const executives = [
       fb: 'nurulhudaapon',
       ig: 'nurulhudaapon',
       tw: 'nurulhudaapon',
+    }
+  },
+  {
+    name: 'Azizul Abedin Azmi',
+    avatar: 'https://imagetot.com/images/2020/05/27/e35410894e87535be15b972853d2fe0a.png',
+    role: 'Cyber Secuurity Executive',
+    bio: 'I am a 12th class student and tech enthusiast',
+    socials: {
+      fb: '',
+      ig: '',
+      tw: '',
     }
   },
 ]
@@ -118,34 +129,34 @@ export default function TeamSection() {
                   {executive.bio}
                 </p>
               </CardBody>
-              {/* <CardFooter className={classes.justifyCenter}>
-                <Button
+              { <CardFooter className={classes.justifyCenter}>
+                {executive.socials.tw && <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
+                  <a href={"https://twitter.com/"+executive.socials.tw}><i className={classes.socials + " fab fa-twitter"} /> </a>
+                </Button>}
+                {executive.socials.ig && <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
+                  <a href={"https://instagram.com/"+executive.socials.ig}><i className={classes.socials + " fab fa-instagram"} /> </a>
+                </Button>}
+                {executive.socials.fb && <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
                 >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
-              </CardFooter> */}
+                  <a href={"https://facebook.com/"+executive.socials.fb}><i className={classes.socials + " fab fa-facebook"} /> </a>
+                </Button>}
+              </CardFooter> }
             </Card>
           </GridItem>
-          
+
           ))}
-        
+
         </GridContainer>
       </div>
     </div>
