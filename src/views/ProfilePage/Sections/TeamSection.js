@@ -16,6 +16,75 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/teamStyle.js";
 
+const executives = [
+  {
+    name: 'Samir Hossain (Sir)',
+    avatar: '/assets/img/faces/p1.jpg',
+    role: 'Moderator',
+    bio: '',
+    socials: {
+      fb: 'nurulhudaapon',
+      ig: 'nurulhudaapon',
+      tw: 'nurulhudaapon',
+    }
+  },
+  {
+    name: 'Minhas Siam',
+    avatar: '/assets/img/faces/Siam.png',
+    role: 'President',
+    bio: '',
+    socials: {
+      fb: 'nurulhudaapon',
+      ig: 'nurulhudaapon',
+      tw: 'nurulhudaapon',
+    }
+  },
+  {
+    name: 'Ashiq  Iqbal Rashed',
+    avatar: '/assets/img/faces/Rashed.png',
+    role: 'Vice President',
+    bio: '',
+    socials: {
+      fb: 'nurulhudaapon',
+      ig: 'nurulhudaapon',
+      tw: 'nurulhudaapon',
+    }
+  },
+  {
+    name: 'Mehedi Hasan',
+    avatar: '/assets/img/faces/Mehedi.jpg',
+    role: 'General Secretary',
+    bio: '',
+    socials: {
+      fb: 'nurulhudaapon',
+      ig: 'nurulhudaapon',
+      tw: 'nurulhudaapon',
+    }
+  },
+  {
+    name: 'Mohammad Masum',
+    avatar: '/assets/img/faces/Masum.png',
+    role: 'Event Mangement Executive',
+    bio: '',
+    socials: {
+      fb: 'nurulhudaapon',
+      ig: 'nurulhudaapon',
+      tw: 'nurulhudaapon',
+    }
+  },
+  {
+    name: 'Nurul Huda',
+    avatar: '/assets/img/faces/p3.jpg',
+    role: 'Web Development Executive',
+    bio: 'I am a 12th class student and tech enthusiast',
+    socials: {
+      fb: 'nurulhudaapon',
+      ig: 'nurulhudaapon',
+      tw: 'nurulhudaapon',
+    }
+  },
+]
+
 
 const useStyles = makeStyles(styles);
 
@@ -28,28 +97,28 @@ export default function TeamSection() {
   );
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <h2 className={classes.title}>Executive Panel</h2>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          {
+            executives.map(executive => (
+
+              <GridItem xs={12} sm={12} md={4}>
             <Card plain>
               <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src="/assets/img/faces/p1.jpg" alt="..." className={imageClasses} />
+                <img src={executive.avatar} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Samir Hossain (Sir)
+                {executive.name}
                 <br />
-                <small className={classes.smallTitle}>Modaretor</small>
+                <small className={classes.smallTitle}>{executive.role}</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  {executive.bio}
                 </p>
               </CardBody>
-              <CardFooter className={classes.justifyCenter}>
+              {/* <CardFooter className={classes.justifyCenter}>
                 <Button
                   justIcon
                   color="transparent"
@@ -71,88 +140,12 @@ export default function TeamSection() {
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
                 </Button>
-              </CardFooter>
+              </CardFooter> */}
             </Card>
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src="/assets/img/faces/p2.jpg" alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-              MD. Abdur Rahim Sarkar
-                <br />
-                <small className={classes.smallTitle}>FrontEnd Developer</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-linkedin"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
-            <Card plain>
-              <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                <img src="/assets/img/faces/p3.jpg" alt="..." className={imageClasses} />
-              </GridItem>
-              <h4 className={classes.cardTitle}>
-                Nur Huda
-                <br />
-                <small className={classes.smallTitle}>BackEnd Developer</small>
-              </h4>
-              <CardBody>
-                <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
-                </p>
-              </CardBody>
-              <CardFooter className={classes.justifyCenter}>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-facebook"} />
-                </Button>
-              </CardFooter>
-            </Card>
-          </GridItem>
+          
+          ))}
+        
         </GridContainer>
       </div>
     </div>
