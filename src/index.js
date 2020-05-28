@@ -7,7 +7,7 @@ import "assets/scss/material-kit-react.scss?v=1.8.0";
 
 // pages for this product
 import Components from "views/Components/Components.js";
-import ProfilePage from "views/ProfilePage/ProfilePage.js";
+import AboutPage from "views/AboutPage/AboutPage.js";
 
 var hist = createBrowserHistory();
 
@@ -15,7 +15,7 @@ ReactDOM.render(
   <Router history={hist}>
     <Switch>
       <Route path="/quiz" component={Components} />
-      <Route path="/about" component={ProfilePage} />
+      <Route path="/about" component={AboutPage} />
       <Route path="/" component={Components} />
     </Switch>
   </Router>,

@@ -3,10 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-// @material-ui/icons
-import Camera from "@material-ui/icons/Camera";
-import Palette from "@material-ui/icons/Palette";
-import Favorite from "@material-ui/icons/Favorite";
+
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
@@ -14,22 +11,21 @@ import Button from "components/CustomButtons/Button.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-import NavPills from "components/NavPills/NavPills.js";
 import Parallax from "components/Parallax/Parallax.js";
 
 import profile from "assets/img/faces/christian.jpg";
 
 // Sections for this page
-import ProductSection from "./Sections/ProductSection.js";
+import AboutSection from "./Sections/AboutSection.js";
 import TeamSection from "./Sections/TeamSection.js";
-import WorkSection from "./Sections/WorkSection.js";
 
 
-import styles from "assets/jss/material-kit-react/views/profilePage.js";
+
+import styles from "assets/jss/material-kit-react/views/AboutPage.js";
 
 const useStyles = makeStyles(styles);
 
-export default function ProfilePage(props) {
+export default function AboutPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   const imageClasses = classNames(
@@ -79,7 +75,7 @@ export default function ProfilePage(props) {
           </div>
         </div>
         <div className={classes.container}>
-                <ProductSection />
+                <AboutSection />
                 <TeamSection />
                 {/* <WorkSection /> */}
               </div>
