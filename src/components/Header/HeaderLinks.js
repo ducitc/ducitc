@@ -16,45 +16,39 @@ import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
+const linklist = [
+  {
+    name: 'Home',
+    url: '/',
+},
+{
+  name: 'Sigup',
+  url: '/',
+},
+{
+  name: 'About',
+  url: '/about',
+},
+]
 
 export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
-      <ListItem className={classes.listItem}>
-        <Button
-          href="/"
-          color="transparent"
-          // target="_blank"
-          className={classes.navLink}
-        >
-           Home
-        </Button>
-      </ListItem>
-
-    <ListItem className={classes.listItem}>
-        <Button
-          href="/quiz"
-          color="transparent"
-          // target="_blank"
-          className={classes.navLink}
-        >
-           Quiz
-        </Button>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Link to='/about' style={{color: 'Black'}}>
-        <Button
-          href="/about"
-          color="transparent"
-          // target="_blank"
-          className={classes.navLink}
-        >
-           About Us
-        </Button>
-        </Link>
-
-      </ListItem>
+      {
+        linklist.map(link =>(
+        <ListItem className={classes.listItem}>
+                <Button
+                  href={link.url}
+                  color="transparent"
+                  // target="_blank"
+                  className={classes.navLink}
+                >
+                  {link.name}
+                </Button>
+              </ListItem>
+        ))
+      }
       
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
