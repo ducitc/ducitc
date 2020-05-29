@@ -32,16 +32,17 @@ export default function Footer(props) {
         <img src="/duc.png" width="50px" />
         </div>
         <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} DUCITC , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          &copy; {1900 + new Date().getYear()} DUCITC 
+          
+          , Develop{" "}
+           by{" "}
           <a
             href="/"
             className={aClasses}
             target="_blank"
           >
             DUCITC Team
-          </a>{" "}
-          for IT Club.
+          </a>
         </div>
       </div>
     </footer>
