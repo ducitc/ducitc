@@ -52,7 +52,7 @@ const executives = [
   },
   {
     name: 'Mehedi Hasan',
-    avatar: 'https://imagetot.com/images/2020/05/27/bfaa5c01f58acbbdafe329029c5fa794.png',
+    avatar: '/assets/img/faces/mehedi.png',
     role: 'General Secretary',
     bio: '',
     socials: {
@@ -73,6 +73,17 @@ const executives = [
     }
   },
   {
+    name: 'Md. Abdur Rahim Sarkar',
+    avatar: '/assets/img/faces/abdur.png',
+    role: 'Software Development Executive',
+    bio: 'I am a 12th class student and tech enthusiast',
+    socials: {
+      fb: 'abdurrahim.official',
+      ig: 'abdurrahimlive',
+      tw: 'abdurrahimlive',
+    }
+  },
+  {
     name: 'Nurul Huda',
     avatar: '/assets/img/faces/p3.jpg',
     role: 'Web Development Executive',
@@ -85,7 +96,7 @@ const executives = [
   },
   {
     name: 'Azizul Abedin Azmi',
-    avatar: 'https://imagetot.com/images/2020/05/27/e35410894e87535be15b972853d2fe0a.png',
+    avatar: '/assets/img/faces/azizul.png',
     role: 'Cyber Secuurity Executive',
     bio: 'I am a 12th class student and tech enthusiast',
     socials: {

@@ -47,7 +47,7 @@ export default function AboutPage(props) {
         }}
         {...rest}
       />
-      <Parallax small filter image="assets/img/profile-bg.jpg" />
+      <Parallax small filter image="assets/img/dania.jpg" />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           <div className={classes.container}>
@@ -64,7 +64,7 @@ export default function AboutPage(props) {
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-instagram"} />
                     </Button>
-                    <Button justIcon link className={classes.margin5}>
+                    <Button justIcon link href="https://fb.me/itduc" className={classes.margin5}>
                       <i className={"fab fa-facebook"} />
                     </Button>
                   </div>
