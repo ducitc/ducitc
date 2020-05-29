@@ -22,10 +22,6 @@ const linklist = [
     url: '/',
 },
 {
-  name: 'Sigup',
-  url: '/',
-},
-{
   name: 'About',
   url: '/about',
 },
@@ -49,6 +45,17 @@ export default function HeaderLinks(props) {
               </ListItem>
         ))
       }
+
+<ListItem className={classes.listItem}>
+                <a
+                  href="http://member.ducitc.team"
+                  color="transparent"
+                  // target="_blank"
+                  className={classes.navLink}
+                >
+                  Member
+                </a>
+              </ListItem>
       
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
