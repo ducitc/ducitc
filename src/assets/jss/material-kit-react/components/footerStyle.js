@@ -35,7 +35,7 @@ const footerStyle = {
   },
   footerWhiteFont: {
     "&,&:hover,&:focus": {
-      color: "#FFFFFF"
+      color: "#000000"
     }
   },
   container,

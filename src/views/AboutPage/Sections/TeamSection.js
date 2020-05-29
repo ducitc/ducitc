@@ -72,17 +72,17 @@ const executives = [
       tw: '',
     }
   },
-  {
-    name: 'Md. Abdur Rahim Sarkar',
-    avatar: '/assets/img/faces/abdur.png',
-    role: 'Software Development Executive',
-    bio: 'I am a 12th class student and tech enthusiast',
-    socials: {
-      fb: 'abdurrahim.official',
-      ig: 'abdurrahimlive',
-      tw: 'abdurrahimlive',
-    }
-  },
+  // {
+  //   name: 'Md. Abdur Rahim Sarkar',
+  //   avatar: '/assets/img/faces/abdur.png',
+  //   role: 'Software Development Executive',
+  //   bio: 'I am a 12th class student and tech enthusiast',
+  //   socials: {
+  //     fb: 'abdurrahim.official',
+  //     ig: 'abdurrahimlive',
+  //     tw: 'abdurrahimlive',
+  //   }
+  // },
   {
     name: 'Nurul Huda',
     avatar: '/assets/img/faces/p3.jpg',

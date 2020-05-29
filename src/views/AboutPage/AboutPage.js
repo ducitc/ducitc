@@ -59,7 +59,7 @@ export default function AboutPage(props) {
                   </div>
                   <div className={classes.name}>
                     <h3 className={classes.title}>Dania University College IT Club</h3>
-                    <h6>Dania University College, Dhaka.</h6>
+                    <h6 style={{color:'black'}}>Dania University College, Dhaka.</h6>
 
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-instagram"} />
