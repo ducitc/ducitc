@@ -1,7 +1,7 @@
 {
   "name": "ducitc",
   "version": "1.0.0",
-  "homepage": "http://test.ducitc.team",
+  "homepage": "http://app.ducitc.team",
   "description": "Coded by Dania University College IT club",
   "private": true,
   "main": "dist/index.js",
