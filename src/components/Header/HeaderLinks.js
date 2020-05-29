@@ -36,16 +36,16 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       {
-        linklist.map(link =>(
+        linklist.map(links =>(
         <ListItem className={classes.listItem}>
-                <Button
-                  href={link.url}
+                <Link
+                  to={links.url}
                   color="transparent"
                   // target="_blank"
                   className={classes.navLink}
                 >
-                  {link.name}
-                </Button>
+                  {links.name}
+                </Link>
               </ListItem>
         ))
       }
