@@ -16,7 +16,7 @@ ReactDOM.render(
     <Switch>
       <Route path="/quiz" component={Components} />
       <Route path="/about" component={AboutPage} />
-      <Route path="/" component={Components} />
+      <Route path="/" exact component={Components} />
     </Switch>
   </Router>,
   document.getElementById("root")
