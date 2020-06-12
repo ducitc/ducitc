@@ -64,14 +64,14 @@ export default function AboutPage(props) {
                     <Button justIcon link className={classes.margin5}>
                       <i className={"fab fa-instagram"} />
                     </Button>
-                    <Button justIcon link href="https://fb.me/itduc" className={classes.margin5}>
+                    <Button justIcon link href="https://fb.me/itcduc" className={classes.margin5}>
                       <i className={"fab fa-facebook"} />
                     </Button>
                   </div>
                 </div>
               </GridItem>
             </GridContainer>
-          
+
           </div>
         </div>
         <div className={classes.container}>

@@ -87,7 +87,7 @@ const executives = [
     name: 'Nurul Huda',
     avatar: '/assets/img/faces/p3.jpg',
     role: 'Web Development Executive',
-    bio: 'I am a 12th class student and tech enthusiast',
+    bio: '',
     socials: {
       fb: 'nurulhudaapon',
       ig: 'nurulhudaapon',
@@ -98,7 +98,7 @@ const executives = [
     name: 'Azizul Abedin Azmi',
     avatar: '/assets/img/faces/azizul.png',
     role: 'Cyber Secuurity Executive',
-    bio: 'I am a 12th class student and tech enthusiast',
+    bio: '',
     socials: {
       fb: '',
       ig: '',
